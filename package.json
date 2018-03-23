@@ -1,11 +1,11 @@
 {
   "name": "array-smoosh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Array.prototype.smoosh and smooshMap for all",
   "main": "index.js",
   "repository": "nicolaisueper/array-smoosh",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "smoosh",
@@ -15,5 +15,22 @@
     "flatMap"
   ],
   "author": "Nicolai Süper (nico@k40s.net)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "22.4.3",
+    "jest-cli": "22.4.3"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "testMatch": [
+      "<rootDir>/__tests__/?(*.)(spec|test).js?(x)"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js?(x)"
+    ]
+  }
 }
