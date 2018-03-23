@@ -1,3 +1,16 @@
+if (Array.hasOwnProperty('map') === false) {
+    Array.prototype.map = function (projectionFunction) {
+      function mapInternal(array, projectionFunction) {
+          var mapped = [];
+          for (var i = 0; i < array.length; i++) {
+              mapped.push(projectionFunction(array[i]));
+          }
+          return mapped;
+      }
+      return mapInternal(this, projectionFunction);
+    }
+}
+
 Array.prototype.smoosh = function () {
     function smooshInternal(array) {
         var smooshed = [];
@@ -16,4 +29,3 @@ Array.prototype.smoosh = function () {
 Array.prototype.smooshMap = function (projectionFunction) {
     return this.smoosh().map(projectionFunction);
 };
-
