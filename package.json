@@ -1,0 +1,18 @@
+{
+  "name": "array-smoosh",
+  "version": "0.0.0",
+  "description": "Array.prototype.smoosh and smooshMap for all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smoosh",
+    "smooshMap",
+    "smooshGate",
+    "flatten",
+    "flatMap"
+  ],
+  "author": "Nicolai Süper (nico@k40s.net)",
+  "license": "MIT"
+}
