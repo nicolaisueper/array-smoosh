@@ -1,8 +1,9 @@
 {
   "name": "array-smoosh",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Array.prototype.smoosh and smooshMap for all",
   "main": "index.js",
+  "repository": "nicolaisueper/array-smoosh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
