@@ -10,5 +10,8 @@ cache:
 branches:
   only:
     - master
+install:
+  - npm i -g codecov
 script:
   - npm test
+  - codecov

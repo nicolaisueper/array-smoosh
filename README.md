@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/nicolaisueper/array-smoosh.svg?branch=master)](https://travis-ci.org/nicolaisueper/array-smoosh)
+[![Coverage](https://codecov.io/gh/nicolaisueper/array-smoosh/branch/master/graph/badge.svg)](https://codecov.io/gh/nicolaisueper/array-smoosh)
 ![Blazing Fast](https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg)
 ![For Humans](https://img.shields.io/badge/😿-For%20Humans-blue.svg)
 ![Enterprise Grade](https://img.shields.io/badge/🏢-Enterprise%20Grade-999999.svg)

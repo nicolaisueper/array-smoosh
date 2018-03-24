@@ -29,6 +29,8 @@
     "testMatch": [
       "<rootDir>/__tests__/?(*.)(spec|test).js?(x)"
     ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
     "collectCoverageFrom": [
       "src/**/*.js?(x)"
     ]
