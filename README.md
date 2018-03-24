@@ -22,11 +22,36 @@
 ```
 $ npm install --save array-smoosh
 ```
+Then `import 'array-smoosh'` anywhere and you're good to go.
 
 ## Features
 
 - Works on older browsers with no own map implementation
 - No conditional monkey patching, so the web will never break your website 😱
+
+## API
+
+### `Array.prototype.smoosh(level?): Array`
+Smooshes the Array. If no level is given, the Array gets smooshed recursively.
+
+```javascript
+[1, [2, [3]]].smoosh(1); // => [1, 2, [3]]
+
+['I', ['love', ['funny', ['method', ['names']]]]]
+  .smoosh()
+  .join(' '); // => 'I love funny method names'
+```
+
+### `Array.prototype.smooshMap(projectionFunction): Array`
+Smooshes the Array recursively and applies the given projection function to each element.
+
+```javascript
+[1, [2, [3]]].smooshMap(n => n * 3); // => [3, 6, 9]
+
+['smoosh', ['all', ['the', ['things']]]]
+  .smooshMap(s => s.toUpperCase() + '!')
+  .join(' ') // => 'SMOOSH! ALL! THE! THINGS!'
+```
 
 ## License
 MIT © Nicolai Süper (nico@k40s.net)
