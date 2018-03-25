@@ -1,6 +1,6 @@
 {
   "name": "array-smoosh",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Array.prototype.smoosh and smooshMap for all",
   "main": "index.js",
   "repository": "nicolaisueper/array-smoosh",

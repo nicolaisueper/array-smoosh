@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/nicolaisueper/array-smoosh.svg?branch=master)](https://travis-ci.org/nicolaisueper/array-smoosh)
 [![Coverage](https://codecov.io/gh/nicolaisueper/array-smoosh/branch/master/graph/badge.svg)](https://codecov.io/gh/nicolaisueper/array-smoosh)
+![Zero Dependencies](https://img.shields.io/badge/0-Zero%20Dependencies-green.svg)
 ![smooshGate](https://img.shields.io/badge/%23-smooshGate-green.svg)
 ![Blazing Fast](https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg)
 ![For Humans](https://img.shields.io/badge/😿-For%20Humans-blue.svg)
