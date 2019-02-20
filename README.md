@@ -16,7 +16,7 @@
 
 # array-smoosh
 
-> [Array.prototype.smoosh and smooshMap](https://github.com/tc39/proposal-flatMap/pull/56) polyfill for all!
+> [Array.prototype.smoosh and smooshMap](https://github.com/tc39/proposal-flatMap/pull/56) ponyfill for all!
 
 ## Install
 
