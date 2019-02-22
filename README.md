@@ -54,5 +54,9 @@ Smooshes the Array recursively and applies the given projection function to each
   .join(' ') // => 'SMOOSH! ALL! THE! THINGS!'
 ```
 
+## Related
+
+[#SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate) :scream_cat:
+
 ## License
 MIT © Nicolai Süper (nico@k40s.net)
