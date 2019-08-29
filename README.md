@@ -23,7 +23,7 @@
 ```
 $ npm install --save array-smoosh
 ```
-Then `import 'array-smoosh'` anywhere and you're good to go.
+Then `import 'array-smoosh'` once, anywhere early inside your application, and you're good to go.
 
 ## Features
 
