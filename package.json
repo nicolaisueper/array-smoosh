@@ -17,8 +17,8 @@
   "author": "Nicolai Süper (nico@k40s.net)",
   "license": "MIT",
   "devDependencies": {
-    "jest": "22.4.3",
-    "jest-cli": "22.4.3"
+    "jest": "24.9.0",
+    "jest-cli": "24.9.0"
   },
   "jest": {
     "testEnvironment": "jsdom",
