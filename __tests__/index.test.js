@@ -1,4 +1,5 @@
 beforeEach(() => require("../src"));
+
 describe("Array.prototype.smoosh", function() {
   it("should smoosh arrays leveled", function() {
     const arrayOneLevel = [1, [2, [3]]];
@@ -6,6 +7,7 @@ describe("Array.prototype.smoosh", function() {
     const expected = [1, 2, [3]];
     expect(result).toEqual(expected);
   });
+
   it("should smoosh arrays recursively", function() {
     const arrayFourLevels = [1, [2, [3, [4]]]];
     const result = arrayFourLevels.smoosh();
